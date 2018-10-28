@@ -1,6 +1,7 @@
 language: python
 python:
   - '2.7'
+  - '3.7'
 install:
   - true
 script:
@@ -15,10 +16,12 @@ deploy:
     skip_cleanup: true
     on:
       tags: true
+      python: '3.7'
       repo: grktsh/my-python-packaging
   - provider: releases
     api_key:
       secure: hU/E7H87M3M6KlHvInEXfC816r16BrRopobgZ5QGdTBagcmwmkk8OVr0roDWowdXKhzLzCrwFWBf/ZUNb2NvKy1wMSQpztQf4yVWLNKuTo1l2PWqMEnHrDJwoCrSJmXWLKNFGkci9RlXR0ClOCP6TmhgENvBut1MHjJK+aqwhpCAy8W8XLBZomxSfpW2GIHJ4wp3tLHfIgRY1tu8vJmPT1WHRqNbMfX6N8iuQdhDS8VmgL5E4QNZtJZGMDz5nG1Q/WlJwin0jTc5gjBcfOVgqQoHkaohFLgcEp9bfziKVkOgFPFLlA79KLI+HmudUnPXf3nl/Jyb8TIVed5VRom1kUCEqjVB4jqjPBdhzH1g2zQTW62Q1hSM2cslXeR1gnUWmjy7ZDSfphB3VVSob1NWiF0WK9XOZbT8Cinale0Ajd8fbANt7j1UL+EvTHxbvLVMMSKCBDGC7zi/dfF97OpBCaaKKw2Sfa38S7vSGA8DgcA2FTH3RaZyF/8LJ3xm7SNOwZyKBs4qf80bkBNwUsXchAYjkS06PQZkiaVdMmM03xJNNjr1pQfa62l9G+Ik8KGYlQK7vPNVs430THeGGfK7iTt09eFHYzh0IUByKxo7xsHPMUugkTVFocjLKY6g8R0Xexdp5/EbTwpE4u3BoNk3xuJjCdWopJc5KKWG68/ISac=
     skip_cleanup: true
     on:
+      python: '3.7'
       tags: true
