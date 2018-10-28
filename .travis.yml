@@ -10,7 +10,7 @@ deploy:
   user: grktsh
   password:
     secure: GLoopAaI78K+RH++fT3hF8YBiDUR0Gz+oHijvSrjTBvfQbx8CLdqyVhhiFnJS4L/tZnzb3QQ+TrCydYFO+u/noANXHIjONbsk/8EyJzJvUhCsea6m9qo86MSEeJXn5HHBZxbAkbmJo8RAVtWhmanC+ADVSC0iSZA3Zsin0+VhAWx6Ty9WwfHB9/3BHP6uxNHvCE5UKoeS0INspZbqBYGiiZ5Hx7xTWkXhPCq5ixYn+1ItGg44iR0thNQRhyAGrdYGFYScnviYa9pqsQQWTKLjshMJyKV0q+FaA+c1aJYX2g75OTZVaAR20zgHI6fMYw3/i5ge9iE4jBjxOju/Ck8IPmm91q6EM0FzeQBnKT7zQ4jda93f1mBkH/Gt52ssJQUxB3s8jHQvoOJMp9ywy6qQQy0B5Mhp1Ty7dg12J44wokVdqJFaFI2ZIf3gC1DCj6L0mlpOdPiglaLDau6GWmQZrlGec++e9yBOJLdTpcQ6n7NEnwPAET4jZN8tUFkLHC9fRtzJKmJEW2nJsPHfWX9dlhiKjNjCCrdGkawyDZQdWfrctenXwWfxn3Y2x84MD0HgsmY6e1FZzYupPd+qtOzim+zIqte+PQ3n+3OP9aaFuYbMNahho540VB6GOqttv+ch6JeX4vD4yB7cFzuX17cGYzWKi3dUPUYe0HO4t3ERYY=
-  server: https://test.pypi.org/simple/
+  server: https://test.pypi.org/legacy/
   on:
     tags: true
     distributions: sdist bdist_wheel
